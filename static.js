@@ -23,6 +23,10 @@ module.exports = function(request,response){
 			content_type = 'image/png';
 			file_path = "."+ data.dir + "/" + data.base;
 			break;
+		case '.gif':
+			content_type = 'image/gif';
+			file_path = "."+ data.dir + "/" + data.base;
+			break;
 		case '.css':
 			content_type = 'text/css';
 			file_path = "."+ data.dir + "/" + data.base;
